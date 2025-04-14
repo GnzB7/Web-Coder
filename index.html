@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FashionStore | Tienda de Ropa</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://kit.fontawesome.com/93875b07d1.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+
+<header>
+    <nav>
+    <div class="logo">
+        <a href="index.html"><img src="assets/logo.png" alt="logotipo"></a>
+    </div>
+    <ul class="nav-links">
+        <li><a href="pagges/productos.html">Productos</a></li>
+        <li><a href="#ofertas">Ofertas</a></li>
+        <li><a href="#carrito">Carrito</a></li>
+        <li><a href="pagges/contacto.html">Contacto</a></li>
+    </ul>
+</nav>
+</header>
+
+<section class="banner">
+    <img src="assets/fondo.jpg" alt="fondo">
+    <h2>Bienvenidos a FashionStore</h2>
+    <button onclick="location.href='#productos'">Ver Productos</button>
+</section>
+
+<section class="productos" id="productos">
+    <h2>Todos los productos</h2>
+    <div class="productos-container">
+        <div class="producto">
+            <img src="assets/remera.jpg" alt="Remera" />
+            <h3>Remera Básica</h3>
+            <p>$50.00</p>
+            <button class="btn-agregar" 
+                    data-id="1" 
+                    data-nombre="Remera Básica" 
+                    data-precio="50.00">
+              Añadir al carrito
+            </button>
+          </div>
+    <div class="producto">
+        <img src="assets/remera.jpg" alt="Producto 2">
+        <h3>Pantalón Slim</h3>
+        <p>$75.00</p>
+        <button>Añadir al carrito</button>
+    </div>
+    <div class="producto">
+        <img src="assets/remera.jpg" alt="Producto 3">
+        <h3>Campera Urban</h3>
+        <p>$100.00</p>
+        <button>Añadir al carrito</button>
+    </div>
+</div>
+</section>
+<section class="calidad-section">
+    <div class="calidad-content">
+      <h2>Calidad que se siente</h2>
+      <p>
+        En <strong>FashionStore</strong>, cada prenda está diseñada con atención al detalle, materiales duraderos y un estilo moderno que se adapta a vos. 
+        Nuestro compromiso es ofrecerte ropa que no solo se vea bien, sino que también dure y te haga sentir increíble cada vez que la usás.
+      </p>
+      <p>
+        Elegí calidad. Elegí FashionStore.
+      </p>
+    </div>
+  </section>
+
+<section class="ofertas" id="ofertas">
+    <h2>Ofertas del día</h2>
+    <div class="productos-container">
+    <div class="producto oferta">
+        <img src="assets/remera.jpg" alt="Oferta 1">
+        <h3>Remera Básica</h3>
+        <p class="precio-original">$50.00</p>
+        <p><strong>$35.00</strong></p>
+        <button>Añadir al carrito</button>
+    </div>
+    <div class="producto oferta">
+        <img src="assets/remera.jpg" alt="Oferta 2">
+        <h3>Pantalón Slim</h3>
+        <p class="precio-original">$75.00</p>
+        <p><strong>$60.00</strong></p>
+        <button>Añadir al carrito</button>
+    </div>
+</div>
+</section>
+
+<section class="carrito" id="carrito">
+    <h2>Tu carrito de compras</h2>
+    <div class="carrito-lista">
+    <p>No hay productos en el carrito.</p>
+</div>
+</section>
+
+<footer class="pie-pagina">
+    <div class="grupo1">
+    <div class="box">
+        <figure>
+        <a href="#"><img src="assets/logo-footer.png" alt="logopagina"></a>
+    </figure>
+    </div>
+    <div class="box">
+        <h2>SOBRE NOSOTROS</h2>
+        <p>FashionStore es tu tienda online de ropa preferida. Calidad, moda y buenos precios.</p>
+    </div>
+    <div class="box">
+        <h2>SÍGUENOS</h2>
+        <div class="redsocial">
+        <a href="https://instagram.com/" class="fa fa-instagram"></a>
+        <a href="https://facebook.com/" class="fa fa-facebook"></a>
+        <a href="https://web.whatsapp.com/" class="fa fa-whatsapp"></a>
+    </div>
+    </div>
+</div>
+<div class="grupo2">
+    <small>&copy; 2025 <b>FashionStore</b> - Todos los derechos reservados</small>
+</div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Productos | FashionStore</title>
+    <link rel="stylesheet" href="../css/styles.css" />
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+        <a href="../index.html"><img src="../assets/logo.png" alt="logotipo" /></a>
+    </div>
+    <ul class="nav-links">
+        <li><a href="productos.html">Productos</a></li>
+        <li><a href="ofertas.html">Ofertas</a></li>
+        <li><a href="carrito.html">Carrito</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+    </ul>
+    </nav>
+</header>
+
+<main class="productos-main">
+    <!-- Barra lateral -->
+    <aside class="filtros">
+        <h3>Filtrar por</h3>
+
+        <div class="filtro">
+        <label>Categoría</label>
+        <select>
+            <option value="">Todas</option>
+            <option value="remeras">Remeras</option>
+            <option value="pantalones">Pantalones</option>
+            <option value="accesorios">Accesorios</option>
+        </select>
+    </div>
+
+    <div class="filtro">
+        <label>Talla</label>
+        <select>
+            <option value="">Todas</option>
+            <option value="S">S</option>
+            <option value="M">M</option>
+            <option value="L">L</option>
+            <option value="XL">XL</option>
+        </select>
+    </div>
+
+    <div class="filtro">
+        <label>Precio máximo</label>
+        <input type="range" min="10" max="200" value="100" />
+        <span>$100</span>
+    </div>
+
+    <button class="filtrar-btn">Aplicar filtros</button>
+    </aside>
+
+    <!-- Lista de productos -->
+    <section class="productos">
+        <h2>Todos los productos</h2>
+        <div class="productos-container">
+        <div class="producto">
+            <img src="../assets/remera.jpg" alt="Remera" />
+            <h3>Remera Básica</h3>
+            <p>$50.00</p>
+            <button>Añadir al carrito</button>
+        </div>
+        <div class="producto">
+            <img src="../assets/remera.jpg" alt="Remera 2" />
+            <h3>Remera Estampada</h3>
+            <p>$65.00</p>
+            <button>Añadir al carrito</button>
+        </div>
+        <div class="producto">
+            <img src="../assets/pantalon.jpg" alt="Pantalón" />
+            <h3>Pantalón Cargo</h3>
+            <p>$120.00</p>
+            <button>Añadir al carrito</button>
+        </div>
+        <div class="producto">
+            <img src="../assets/pantalon.jpg" alt="Pantalón" />
+            <h3>Pantalón Cargo</h3>
+            <p>$120.00</p>
+            <button>Añadir al carrito</button>
+        </div>
+        <div class="producto">
+            <img src="../assets/pantalon.jpg" alt="Pantalón" />
+            <h3>Pantalón Cargo</h3>
+            <p>$120.00</p>
+            <button>Añadir al carrito</button>
+        </div>
+        <div class="producto">
+            <img src="../assets/pantalon.jpg" alt="Pantalón" />
+            <h3>Pantalón Cargo</h3>
+            <p>$120.00</p>
+            <button>Añadir al carrito</button>
+        </div>
+        <div class="producto">
+            <img src="../assets/pantalon.jpg" alt="Pantalón" />
+            <h3>Pantalón Cargo</h3>
+            <p>$120.00</p>
+            <button>Añadir al carrito</button>
+        </div>
+        <div class="producto">
+            <img src="../assets/pantalon.jpg" alt="Pantalón" />
+            <h3>Pantalón Cargo</h3>
+            <p>$120.00</p>
+            <button>Añadir al carrito</button>
+        </div>
+    </div>
+    </section>
+</main>
+
+<footer class="pie-pagina">
+    <div class="grupo1">
+    <div class="box">
+        <figure>
+        <a href="#"><img src="assets/logo-footer.png" alt="logopagina"></a>
+    </figure>
+    </div>
+    <div class="box">
+        <h2>SOBRE NOSOTROS</h2>
+        <p>FashionStore es tu tienda online de ropa preferida. Calidad, moda y buenos precios.</p>
+    </div>
+    <div class="box">
+        <h2>SÍGUENOS</h2>
+        <div class="redsocial">
+        <a href="https://instagram.com/" class="fa fa-instagram"></a>
+        <a href="https://facebook.com/" class="fa fa-facebook"></a>
+        <a href="https://web.whatsapp.com/" class="fa fa-whatsapp"></a>
+    </div>
+    </div>
+</div>
+<div class="grupo2">
+    <small>&copy; 2025 <b>FashionStore</b> - Todos los derechos reservados</small>
+</div>
+</footer>
+</body>
+</html>
